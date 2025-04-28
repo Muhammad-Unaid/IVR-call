@@ -7,9 +7,9 @@ from twilio.twiml.voice_response import VoiceResponse, Gather
 from twilio.rest import Client
 import json
 
-account_sid = '###'
-auth_token = '###'
-twilio_number = '+###'
+account_sid = 'AC48cfa245381df454027305d01375ca59'
+auth_token = '07edfa5e9d474b9fe449fb168bfe1621'
+twilio_number = '+16203178280'
 client = Client(account_sid, auth_token)
 
 @csrf_exempt
